@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Grand défi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href='./css/flex.css' rel='stylesheet' type='text/css'>
+  <script src="./bower_components/riot/riot+compiler.min.js"></script>
+  <script src="./bower_components/riotcontrol/riotcontrol.js"></script>
+  <script src="./store/mainStore.js"></script>
+  <script type="riot/tag" src="./navigation.tag"></script>
+</head>
+
+<body>
+  <navigation></navigation>
+
+  <script>
+    var mainStore = new MainStore();
+    RiotControl.addStore(mainStore);
+    riot.compile(function() {
+      var tags = riot.mount('*');
+    });
+  </script>
+</body>
+
+</html>

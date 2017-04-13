@@ -1,0 +1,65 @@
+{
+  "name": "riot",
+  "version": "3.3.2",
+  "description": "A React-like user interface micro-library",
+  "homepage": "http://riotjs.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/riot/riot.git"
+  },
+  "authors": [
+    "Riot maintainers team + smart people from all over the world",
+    "Richard Bondi https://github.com/rsbondi",
+    "Gianluca Guarini https://github.com/GianlucaGuarini",
+    "Tsutomu Kawamura https://github.com/cognitom",
+    "Grant Marvin     https://github.com/rogueg",
+    "Alberto Martínez https://github.com/aMarCruz",
+    "Tero Piirainen  https://github.com/tipiirai"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "custom tags",
+    "custom elements",
+    "web components",
+    "virtual dom",
+    "shadow dom",
+    "polymer",
+    "react",
+    "jsx",
+    "minimal",
+    "minimalist",
+    "client-side",
+    "framework",
+    "declarative",
+    "templating",
+    "template",
+    "data binding",
+    "mvc",
+    "router",
+    "model",
+    "view",
+    "controller",
+    "riotjs",
+    "riot.js"
+  ],
+  "ignore": [
+    "**/*",
+    "!/riot.js",
+    "!/riot.min.js",
+    "!/riot.csp.js",
+    "!/riot.csp.min.js",
+    "!/riot+compiler.js",
+    "!/riot+compiler.min.js"
+  ],
+  "main": "riot.js",
+  "_release": "3.3.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.3.2",
+    "commit": "3a4dc6f12d58c29ca8025d5b1c679a2fa62f7d0f"
+  },
+  "_source": "https://github.com/muut/riotjs.git",
+  "_target": "^3.3.2",
+  "_originalSource": "riot",
+  "_direct": true
+}
